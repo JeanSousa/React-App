@@ -1,9 +1,15 @@
+// importações da propria biblioteca do react
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// importação do componente App
 import './index.css';
 import App from './App';
+
+// importação do web vitals para identificar gargalos na aplicação react
 import reportWebVitals from './reportWebVitals';
 
+// reinderizacao do codigo atravez do componenete app
 ReactDOM.render(
   <React.StrictMode>
     <App />
